@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>package { "${1:name}":
+	ensure  =&gt; present,
+  require =&gt; Apt::Source["${2:source}"],
+}
+</string>
+	<key>name</key>
+	<string>package from apt::source</string>
+	<key>scope</key>
+	<string>source.puppet</string>
+	<key>tabTrigger</key>
+	<string>pas</string>
+	<key>uuid</key>
+	<string>8C21FF38-7985-496B-9B89-74DFDE442B89</string>
+</dict>
+</plist>
