@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>apt::source { "${1}":
+  location   =&gt; "${2}",
+  release    =&gt; "${3:\$lsbdistcodename}",
+  repos      =&gt; "${4:main}",
+  key        =&gt; "${5}",
+  key_source =&gt; "${6}",
+}</string>
+	<key>name</key>
+	<string>apt::source</string>
+	<key>scope</key>
+	<string>source.puppet</string>
+	<key>tabTrigger</key>
+	<string>apts</string>
+	<key>uuid</key>
+	<string>653BF4FF-807D-4E22-A8FE-A312EA25B320</string>
+</dict>
+</plist>
