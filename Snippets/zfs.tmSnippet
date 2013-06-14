@@ -8,6 +8,8 @@
 	mountpoint =&gt; "${3:/path}",
 	ensure =&gt; ${4:present},
 }$0</string>
+  <key>scope</key>
+  <string>source.puppet</string>
 	<key>name</key>
 	<string>zfs</string>
 	<key>tabTrigger</key>

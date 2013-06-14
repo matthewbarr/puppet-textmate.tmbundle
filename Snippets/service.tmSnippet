@@ -10,6 +10,8 @@
 	hasstatus  =&gt; true,
 	# pattern    =&gt; '${1:name}',
 }$0</string>
+  <key>scope</key>
+  <string>source.puppet</string>
 	<key>name</key>
 	<string>service</string>
 	<key>tabTrigger</key>

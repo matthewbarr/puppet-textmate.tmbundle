@@ -6,6 +6,8 @@
 	<string>zpool { "${1:name}":
 	${2:mirror} =&gt; ${3:disks},
 }$0</string>
+  <key>scope</key>
+  <string>source.puppet</string>
 	<key>name</key>
 	<string>zpool</string>
 	<key>tabTrigger</key>

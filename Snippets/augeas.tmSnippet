@@ -7,6 +7,8 @@
 	context =&gt; "${2:/files/etc/sysconfig/firstboot}",
 	changes =&gt; "${3:set RUN_FIRSTBOOT YES}",
 }$0</string>
+  <key>scope</key>
+  <string>source.puppet</string>
 	<key>name</key>
 	<string>augeas</string>
 	<key>tabTrigger</key>
